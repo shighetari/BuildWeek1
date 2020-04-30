@@ -1,0 +1,96 @@
+// start of the about section
+
+// .pics {
+//     border: solid red;
+//     display: flex;
+//     max-width: 50%;
+//     max-height: 50%;
+//     flex-direction: column;
+//     justify-items: center;
+// }
+
+// .row {
+//     display: flex;
+//     flex-wrap: wrap;
+//     padding: 0 4px;
+//   }
+  
+//   /* Create two equal columns that sits next to each other */
+//   .column {
+//     flex: 50%;
+//     padding: 0 4px;
+//   }
+  
+//   .column img {
+//     margin-top: 8px;
+//     vertical-align: middle;
+//   }
+
+  // start of test hover
+  .aboutpics2 {
+    display: flex;
+    justify-content: center;
+}
+  .aboutpics {
+      display: flex;
+      justify-content: center;
+  }
+.developers:hover{
+  opacity: 60%;
+}
+  .container2 {
+
+    position: relative;
+    width: 20%;
+  
+
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border:solid green;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url("/assets/matrixcool.gif");
+    // background-image: url("/assets/greendisco.gif");
+  }
+  
+  .container2:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color:white;
+    font-size: 120%;
+    font-family: fantasy;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+
+  @media (max-width: 1200px){
+    .text { font-size:35% 
+
+    }
+     
+  }
+  

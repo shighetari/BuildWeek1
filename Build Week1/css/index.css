@@ -1,0 +1,302 @@
+.newButton {
+  transition-duration: 0.4s;
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #3d023f;
+  justify-content: space-around;
+  padding-top: 1%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008CBA;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+html,
+body {
+  font-family: 'Raleway', sans-serif;
+  background-image: url("/assets/bg.gif");
+  background-color: black;
+}
+nav {
+  color: white;
+  padding: 0;
+  text-align: center;
+}
+@media (max-width:800px) {
+  nav .links {
+    display: flex;
+    flex-direction: column;
+  }
+}
+a {
+  display: inline-block;
+  transition-duration: 0.4s;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  border-radius: 15%;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid green;
+}
+nav a:hover {
+  background-color: purple;
+  color: white;
+}
+.button {
+  transition-duration: 0.4s;
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #3d023f;
+  justify-content: space-around;
+  padding-top: 1%;
+}
+.button:hover {
+  background-color: purple;
+  color: white;
+}
+h1 {
+  text-align: center;
+  font-size: xx-large;
+}
+.container {
+  background-color: #0b250b;
+  margin: 5%;
+  opacity: 85%;
+  border: 1px solid green;
+}
+.logogif {
+  opacity: 90%;
+}
+.logogif:hover {
+  opacity: 60%;
+}
+@media (max-width:800px) {
+  .logogif,
+  .developers {
+    max-width: 100%;
+  }
+}
+.logo {
+  mix-blend-mode: multiply;
+  max-width: 5%;
+  max-height: 5%;
+  justify-self: center;
+  font-size: xx-large;
+}
+.salty:hover {
+  transform: scale(1.1);
+}
+.salt1 {
+  max-width: 2%;
+  max-height: 2%;
+}
+.salt2 {
+  max-width: 2%;
+  max-height: 2%;
+  transform: rotateY(180deg);
+}
+.salt1:hover {
+  transform: rotateY(180deg);
+}
+.salt2:hover {
+  transform: rotateY(45deg);
+}
+.hackerskull {
+  width: 30%;
+  height: 30%;
+  object-fit: contain;
+  opacity: 60%;
+}
+.hackerskull:hover {
+  opacity: 60%;
+  transform: rotateY(180deg);
+}
+.annon {
+  max-width: 5%;
+  max-height: 5%;
+  opacity: 80%;
+}
+.header2 {
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+  color: white;
+  opacity: 100%;
+}
+h2 {
+  color: blue;
+  font-size: xx-large;
+  text-shadow: 2px 2px 5px white;
+}
+.par {
+  font-family: 'Source Code Pro', monospace;
+  font-size: xx-large;
+  text-shadow: 2px 2px 5px purple;
+}
+.aboutpics2 {
+  display: flex;
+  justify-content: center;
+}
+.aboutpics {
+  display: flex;
+  justify-content: center;
+}
+.developers:hover {
+  opacity: 60%;
+}
+.container2 {
+  position: relative;
+  width: 20%;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: solid green;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-image: url("/assets/matrixcool.gif");
+}
+.container2:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 120%;
+  font-family: fantasy;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  .text {
+    font-size: 35%;
+  }
+}
